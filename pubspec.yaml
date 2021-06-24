@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  flutter_swiper: ^1.1.6
   flutter:
     sdk: flutter
 
@@ -28,6 +29,18 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^8.4.0
+  flutter_staggered_grid_view: ^0.3.0
+  cloud_firestore: ^0.12.9
+  carousel_pro: ^1.0.0
+  transparent_image: ^1.0.0
+  scoped_model: ^1.0.1
+  firebase_auth: ^0.11.1+12
+  url_launcher: ^5.1.1
+  introduction_screen: ^1.0.7
+  dots_indicator: ^1.2.0
+  webview_flutter: ^1.0.7
+  flutter_launcher_icons: ^0.8.1
 
 dev_dependencies:
   flutter_test:
@@ -46,7 +59,34 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+  - assets/images/intoscreen_1.png
+  - assets/images/intoscreen_2.png
+  - assets/images/intoscreen_3.png
+  - assets/images/intoscreen_4.png
+  - assets/images/intoscreen_5.png
+  - assets/images/curved.jpg
+  - assets/images/logo_descarte.png
+  - assets/images/linha_azul.jpg
+  - assets/images/card_home.png
+  - assets/images/lixeiras-coleta-seletiva.jpg
+  - assets/images/engenheiros.jpg
+  - assets/images/eletroportateis.jpg
+  - assets/images/o_que_e_lixo_eletronico.jpg
+  - assets/images/lixo_eletronico.jpg
+  - assets/images/linha_verde.jpg
+  - assets/images/linha_verde.png
+  - assets/images/linha_marrom.jpg
+  - assets/images/linha_branca.png
+  - assets/images/linha_azuls.jpg
+  - assets/images/linha_azul_screen.jpg
+  - assets/images/linha_verde_screen.jpg
+  - assets/images/linha_branca_screen.jpg
+  - assets/images/linha_marrom_screen.jpg
+  - assets/images/linha_especial_screen.jpg
+  - assets/images/linha_spacial.jpg
   - assets/images/logo_kidsapp.png
+  - assets/images/7_engineers.jpg
+  # - assets/images/logo_kidsapp.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

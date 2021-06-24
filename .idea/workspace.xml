@@ -3,11 +3,81 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="29f97594-a2a1-47a4-988e-8c90dd0150a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icon/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon/reciclaanda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon/reciclaanda_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/7_engineers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/apk-icon-editor_2.2.0.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/card_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/curved.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/eletroportateis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/engenheiros.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/intoscreen_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/intoscreen_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/intoscreen_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/intoscreen_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/intoscreen_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jre-8u271-windows-x64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_azul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_azul_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_azuls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_branca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_branca_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_especial_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_marrom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_marrom_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_spacial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_teste.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_verde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linha_verde_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linhas-verde-marrom-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linhas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/lixeiras-coleta-seletiva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/lixo_eletronico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo_descarte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/o_que_e_lixo_eletronico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/elixo_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/linhaazul_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/linhabranca_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/linhaespecial_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/linhamarron_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/linhaverde_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/linhavermelha_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/lixoeletronico_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/quemsomos_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/home_tab.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/quemsomos_tab.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tabs/sobre_tab.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tiles/drawer_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widgets/custom_drawer.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/appkidsapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appkidsapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/start.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/start.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +96,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets\images" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets\images" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib\screens" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib\tabs" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -47,10 +135,57 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1624504663890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1624504663890" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624499282094">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624499282094" />
     <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624418332139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624418332139" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624495345937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624495345937" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1624509604912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624509604912" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1624509604912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624509604912" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1624509604911">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624509604911" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1624509604912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624509604912" />
+    <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1624501180890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624501180890" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1624506585986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1624506585986" />
   </component>
 </project>
