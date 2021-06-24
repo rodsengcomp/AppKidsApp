@@ -14,7 +14,7 @@ class CustomDrawer extends StatelessWidget {
       decoration: BoxDecoration(
           gradient: LinearGradient(
               colors: [
-                Color.fromARGB(255, 0,255,127),
+                Color.fromARGB(202, 0, 51, 202),
                 Colors.white
               ],
               begin: Alignment.topCenter,
@@ -39,7 +39,7 @@ class CustomDrawer extends StatelessWidget {
                     Positioned(
                       top: 8.0,
                       left: 0.0,
-                      child: Text("Kids\nApp",
+                      child: Text("KidsApp\nAprendra\nBrincando!!!",
                         style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -48,10 +48,10 @@ class CustomDrawer extends StatelessWidget {
               ),
               Divider(),
               DrawerTile(Icons.home, "Início", pageController, 0),
-              DrawerTile(Icons.list, "Ecopontos (Não Eletrônicos)", pageController, 1),
-              DrawerTile(Icons.location_on, "Reciclagens de Eletrônicos", pageController, 2),
-              DrawerTile(Icons.location_on, "Agendamento de Retirada", pageController, 3),
-              DrawerTile(Icons.playlist_add_check, "Retiradas Agendadas", pageController, 4),
+              DrawerTile(Icons.history_edu_outlined, "Histórias", pageController, 1),
+              DrawerTile(Icons.design_services, "Desenhos", pageController, 2),
+              DrawerTile(Icons.warning_amber_sharp, "Comportamento", pageController, 3),
+              DrawerTile(Icons.video_collection_rounded, "Vídeos", pageController, 4),
               DrawerTile(Icons.accessibility, "Quem Somos", pageController, 5),
             ],
           )

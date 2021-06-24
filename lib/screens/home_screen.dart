@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
         ),
         Scaffold(
           appBar: AppBar(
-            title: Text("Não Eletrônicos (Ecopontos - SP)"),
+            title: Text("Histórias"),
             centerTitle: true,
           ),
           body: Sobre(),

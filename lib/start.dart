@@ -9,8 +9,8 @@ class Start extends StatelessWidget {
     return MaterialApp(
       title: 'KidsApp',
       theme: ThemeData(
-          primarySwatch: Colors.green,
-          primaryColor: Color.fromARGB(255, 0,128,0)
+          primarySwatch: Colors.blue,
+          primaryColor: Color.fromARGB(255, 0, 58, 128)
       ),
       debugShowCheckedModeBanner: false,
       home: IntroScreen(),
