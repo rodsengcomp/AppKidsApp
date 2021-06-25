@@ -31,7 +31,7 @@ class _IntroScreenState extends State<IntroScreen> {
     "KidsApp - Aprenda Brincando !!!",
     "Brincadeiras Divertidas",
     "Historinhas Pedagógicas",
-    "Atividades Educativass",
+    "Atividades Educativa",
   ];
   final List<String> subtitles = [
     "Vídeos com historinhas animadas que ajudam a lidar com as emoções dos pequenos.",
