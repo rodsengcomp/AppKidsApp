@@ -45,7 +45,7 @@ class HomeTab extends StatelessWidget {
               ),
             ),
             SliverFixedExtentList(
-                itemExtent: 50.0,
+                itemExtent: 380.0,
                 delegate: SliverChildListDelegate([
                   Container(
                     child: Card(color: Colors.indigo,

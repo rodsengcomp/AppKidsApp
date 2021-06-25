@@ -29,17 +29,17 @@ class _IntroScreenState extends State<IntroScreen> {
   int _currentIndex = 0;
   final List<String> titles = [
     "KidsApp - Aprenda Brincando !!!",
-    "Awesome App",
+    "Atividades Educativas",
     "Flutter App",
   ];
   final List<String> subtitles = [
     "Vídeos com historinhas animadas que ajudam a lidar com as emoções dos pequenos.",
-    "This is an awesome app, of intro screen design",
+    "Brincadeiras que você pode fazer em casa educando seu filho e se divertindo !!!",
     "Flutter is awesome for app development"
   ];
   final List<Color> colors = [
     Colors.blue.shade300,
-    Colors.red.shade300,
+    Colors.red,
     Colors.indigo.shade300,
   ];
   @override
@@ -136,12 +136,13 @@ class IntroItem extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     fontSize: 35.0,
                     color: Colors.white),
+                textAlign: TextAlign.center,
               ),
               if (subtitle != null) ...[
                 const SizedBox(height: 20.0),
                 Text(
                   subtitle,
-                  style: TextStyle(color: Colors.white, fontSize: 24.0),
+                  style: TextStyle(color: Colors.white, fontSize: 28.0),
                   textAlign: TextAlign.center,
                 ),
               ],

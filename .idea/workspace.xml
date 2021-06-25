@@ -24,14 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="29f97594-a2a1-47a4-988e-8c90dd0150a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/intoscreen_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intoscreen_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/start.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/start.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tabs/home_tab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home_tab.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/sobre_tab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/sobre_tab.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/custom_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_drawer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,10 +105,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624499282094" />
-    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624575329044">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624578365994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624575329044" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624578365994" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624495345937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,10 +129,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624575527291" />
-    <state x="779" y="112" width="587" height="534" key="find.popup" timestamp="1624570872626">
+    <state x="779" y="112" width="587" height="534" key="find.popup" timestamp="1624580000364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="779" y="112" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624570872626" />
+    <state x="779" y="112" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624580000363" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1624506585986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
