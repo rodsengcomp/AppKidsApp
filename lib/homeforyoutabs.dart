@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:appkidsapp/screens/elixo_screen.dart';
+import 'package:appkidsapp/screens/linhaazul_screen.dart';
+import 'package:appkidsapp/screens/linhabranca_screen.dart';
+import 'package:appkidsapp/screens/linhamarron_screen.dart';
+import 'package:appkidsapp/screens/linhaverde_screen.dart';
+import 'package:appkidsapp/screens/linhaespecial_screen.dart';
+import 'package:appkidsapp/screens/lixoeletronico_screen.dart';
+import 'package:appkidsapp/screens/quemsomos_screen.dart';
+import 'package:transparent_image/transparent_image.dart';
+import 'package:launch_review/launch_review.dart';
 
 class HomeForYouTabs extends StatefulWidget {
   final Widget child;
@@ -33,17 +44,18 @@ class _HomeForYouTabsState extends State<HomeForYouTabs> {
     );
   }
 
+
+
   Widget ImageContainer() {
     return Container(
       height: 200.0,
-      child: Image.network(
-          'https://www.bluemoongame.com/wp-content/uploads/2018/12/Marvel_Strike_Force_Alliance_War_Update.png',
+      child: Image.asset(
+          'assets/images/o_que_e_kidsapp.png',
           fit: BoxFit.cover),
     );
   }
 
-
-Widget RecommendedApps() {
+  Widget RecommendedApps() {
     return Material(
       color: Colors.white,
       elevation: 14.0,
@@ -52,7 +64,7 @@ Widget RecommendedApps() {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: labelContainer('Recommended for you'),
+            child: labelContainer('Outros apps recomendados pelo KidsApp'),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -72,7 +84,7 @@ Widget RecommendedApps() {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: labelContainer('Previously installed apps'),
+            child: labelContainer('Aplicativos Infantis Recomendados'),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -92,10 +104,6 @@ Widget RecommendedApps() {
           Text(
             labelVal,
             style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.0),
-          ),
-          Text(
-            'MORE',
-            style: TextStyle(color: Colors.green,fontWeight: FontWeight.bold,fontSize: 18.0),
           ),
         ],
       ),
@@ -145,9 +153,14 @@ Widget RecommendedApps() {
         child: ListView(
           scrollDirection: Axis.horizontal,
           children: <Widget>[
-            imageSection(
+            FlatButton(
+              onPressed: () {
+                LaunchReview.launch(androidAppId: "appkidsapp.u000webhostapp.appkidsapp");
+             },
+            child: imageSection(
                 'https://lh3.googleusercontent.com/48wwD4kfFSStoxwuwCIu6RdM2IeZmZKfb1ZeQkga0qEf1JKsiD-hK3Qf8qvxHL09lQ=s180-rw',
                 'Amazon Kindle','4.2'),
+            ),
             SizedBox(
               width: 20.0,
             ),

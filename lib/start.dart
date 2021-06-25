@@ -7,11 +7,11 @@ class Start extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'KidsApp',
       theme: ThemeData(
         primaryColor: Color(0xffffffff),
       ),
-      debugShowCheckedModeBanner: false,
       home: IntroScreen(),
     );
   }

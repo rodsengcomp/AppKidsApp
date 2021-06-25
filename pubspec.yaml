@@ -44,6 +44,7 @@ dependencies:
   webview_flutter: ^1.0.7
   flutter_launcher_icons: ^0.8.1
   http: any
+  launch_review: ^1.0.1
 
 dev_dependencies:
   flutter_test:

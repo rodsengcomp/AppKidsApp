@@ -41,7 +41,7 @@ class _GamesTopTabsState extends State<GamesTopTabs> with SingleTickerProviderSt
                 icon:Icon(FontAwesomeIcons.compass, color: _tabController.index == 0
                           ? Color( widget.colorVal)
                           : Colors.grey),
-                child:Text('For You',style: TextStyle( color: _tabController.index == 0
+                child:Text('Recomendados',style: TextStyle( color: _tabController.index == 0
                           ?  Color( widget.colorVal)
                           : Colors.grey)),
               ),
@@ -49,7 +49,7 @@ class _GamesTopTabsState extends State<GamesTopTabs> with SingleTickerProviderSt
                 icon: Icon(FontAwesomeIcons.chartBar, color: _tabController.index == 1
                           ? Color( widget.colorVal)
                           : Colors.grey),
-                child: Text('Top Charts',style: TextStyle( color: _tabController.index == 1
+                child: Text('Mais acessados',style: TextStyle( color: _tabController.index == 1
                           ?  Color( widget.colorVal)
                           : Colors.grey)),
               ),
@@ -111,7 +111,7 @@ class _GamesTopTabsState extends State<GamesTopTabs> with SingleTickerProviderSt
               Column(
               children: <Widget>[
                 Center(
-                  child: Text("For you Tabs"),
+                  child: Text("For you Tabss"),
                 )
               ],
             ),
