@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f97594-a2a1-47a4-988e-8c90dd0150a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/start.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/start.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabs/home_tab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home_tab.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,10 +106,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624582804373" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624495345937">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624585593874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624495345937" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624585593874" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1624582528973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
