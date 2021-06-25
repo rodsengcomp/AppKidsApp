@@ -30,7 +30,7 @@ class _HomeForYouTabsState extends State<HomeForYouTabs> {
           SizedBox(
             height: 10.0,
           ),
-          ImageContainer(),
+          CardBlack(),
           SizedBox(
             height: 20.0,
           ),
@@ -92,6 +92,50 @@ class _HomeForYouTabsState extends State<HomeForYouTabs> {
           ),
         ],
       ),
+    );
+  }
+
+  Widget CardBlack() {
+    return Card(
+        color: Colors.black,
+        //  color: Color.fromARGB(50, 255, 100, 200),
+        child: Container(
+          child: Card(color: Color.fromARGB(255, 19, 50, 182),
+            clipBehavior: Clip.antiAlias,
+            child: Column(
+              children: [
+                ListTile(
+                  leading: Icon(Icons.accessibility),
+                  title: const Text(
+                    'O que é KidsApp?',
+                    style: TextStyle(fontWeight: FontWeight.bold,fontSize: 24,color: Colors.white),
+                  ),
+                  tileColor: Color.fromARGB(255, 10, 37, 90),
+                ),
+                Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Image.asset('assets/images/o_que_e_kidsapp.png')
+                ),
+                ButtonBar(
+                  alignment: MainAxisAlignment.start,
+                  children: [
+                    FlatButton(
+                      textColor: Colors.white,
+                      color: Color.fromARGB(255, 10, 37, 90),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => QuemSomos()),
+                        );
+                      },
+                      child: const Text('SAIBA MAIS'),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ),
     );
   }
 

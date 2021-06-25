@@ -26,11 +26,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/gamestoptabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gamestoptabs.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/homeforyoutabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/homeforyoutabs.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/homepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/homepage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/hometoptabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hometoptabs.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/start.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/start.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,34 +105,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624499282094" />
-    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624582804373">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624641806640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624582804373" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624641806640" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624593069237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624593069237" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1624630934440">
+    <state width="1306" height="179" key="GridCell.Tab.0.bottom" timestamp="1624644543779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624630934440" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1624630934439">
+    <state width="1306" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624644543779" />
+    <state width="1306" height="179" key="GridCell.Tab.0.center" timestamp="1624644543778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624630934439" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1624630934439">
+    <state width="1306" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624644543778" />
+    <state width="1306" height="179" key="GridCell.Tab.0.left" timestamp="1624644543778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624630934439" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1624630934439">
+    <state width="1306" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624644543778" />
+    <state width="1306" height="179" key="GridCell.Tab.0.right" timestamp="1624644543778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624630934439" />
-    <state x="779" y="120" width="587" height="596" key="find.popup" timestamp="1624631105266">
+    <state width="1306" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624644543778" />
+    <state x="779" y="120" width="587" height="596" key="find.popup" timestamp="1624642988488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="779" y="120" width="587" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624631105266" />
+    <state x="779" y="120" width="587" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624642988488" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1624506585986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

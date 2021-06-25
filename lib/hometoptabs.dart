@@ -18,7 +18,7 @@ TabController _tabController;
 @override
      void initState() {
        super.initState();
-      _tabController = new TabController(vsync: this, length: 4);
+      _tabController = new TabController(vsync: this, length: 1);
       _tabController.addListener(_handleTabSelection);
      }
      void _handleTabSelection() {
@@ -35,15 +35,6 @@ TabController _tabController;
            controller: _tabController,
             children: <Widget>[
               HomeForYouTabs(),
-              Container(),
-              Container(
-              height: 200.0,
-              child: Center(child: Text('Family')),
-            ),
-            Container(
-              height: 200.0,
-              child: Center(child: Text('Early Access')),
-            ),
             ],
          ),
       ),
