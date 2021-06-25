@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
         ),
         Scaffold(
           appBar: AppBar(
-            title: Text("Reciclagens de Eletrônicos"),
+            title: Text("Desenhos"),
             centerTitle: true,
           ),
           body: Sobre(),
@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
         ),
         Scaffold(
           appBar: AppBar(
-            title: Text("Agendamento de Retirada"),
+            title: Text("Comportamento"),
             centerTitle: true,
           ),
           drawer: CustomDrawer(_pageController),
@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
         ),
         Scaffold(
           appBar: AppBar(
-            title: Text("Retiradas Agendadas"),
+            title: Text("Vídeos"),
             centerTitle: true,
           ),
           body: Sobre(),

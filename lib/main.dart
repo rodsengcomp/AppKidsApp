@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext contextP) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
+        title: 'KidsApp Aprenda Brincando',
         home: SplashScreen()
     );
   }

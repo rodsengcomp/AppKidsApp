@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:appkidsapp/screens/home_screen.dart';
+import 'package:appkidsapp/homepage.dart';
 
 class Start extends StatelessWidget {
   // This widget is the root of your application.
@@ -9,8 +9,7 @@ class Start extends StatelessWidget {
     return MaterialApp(
       title: 'KidsApp',
       theme: ThemeData(
-          primarySwatch: Colors.blue,
-          primaryColor: Color.fromARGB(255, 0, 58, 128)
+        primaryColor: Color(0xffffffff),
       ),
       debugShowCheckedModeBanner: false,
       home: IntroScreen(),
@@ -85,7 +84,7 @@ class _IntroScreenState extends State<IntroScreen> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => HomeScreen()),
+                  MaterialPageRoute(builder: (context) => HomePage()),
                 );
               },
             ),
@@ -101,7 +100,7 @@ class _IntroScreenState extends State<IntroScreen> {
                 } else{
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                    MaterialPageRoute(builder: (context) => HomePage()),
                   );
                 }
               },
