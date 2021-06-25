@@ -29,18 +29,21 @@ class _IntroScreenState extends State<IntroScreen> {
   int _currentIndex = 0;
   final List<String> titles = [
     "KidsApp - Aprenda Brincando !!!",
+    "Brincadeiras Divertidas",
+    "Historinhas Pedagógicas",
     "Atividades Educativas",
-    "Flutter App",
   ];
   final List<String> subtitles = [
     "Vídeos com historinhas animadas que ajudam a lidar com as emoções dos pequenos.",
     "Brincadeiras que você pode fazer em casa educando seu filho e se divertindo !!!",
-    "Flutter is awesome for app development"
+    "Histórias que trabalham as emoções dos pequenos, ainda confusas e dolorosas ",
+    "Estimulando a coordenação motora, percepção espacial e o raciocínio lógico"
   ];
   final List<Color> colors = [
-    Colors.blue.shade300,
-    Colors.red,
-    Colors.indigo.shade300,
+    Color.fromARGB(255, 17, 56, 224),
+    Color.fromARGB(255, 248, 191, 21),
+    Color.fromARGB(255, 17, 212, 36),
+    Color.fromARGB(255, 234, 49, 103),
   ];
   @override
   @override
@@ -91,9 +94,9 @@ class _IntroScreenState extends State<IntroScreen> {
             alignment: Alignment.bottomRight,
             child: IconButton(
               icon:
-              Icon(_currentIndex == 2 ? Icons.check : Icons.arrow_forward),
+              Icon(_currentIndex == 3 ? Icons.check : Icons.arrow_forward),
               onPressed: () {
-                if (_currentIndex != 2) {
+                if (_currentIndex != 3) {
                   _controller.next();
                 } else{
                   Navigator.push(

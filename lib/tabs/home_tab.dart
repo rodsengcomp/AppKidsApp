@@ -48,27 +48,28 @@ class HomeTab extends StatelessWidget {
                 itemExtent: 380.0,
                 delegate: SliverChildListDelegate([
                   Container(
-                    child: Card(color: Colors.indigo,
+                    child: Card(color: Color.fromARGB(255, 19, 50, 182),
                       clipBehavior: Clip.antiAlias,
                       child: Column(
                         children: [
                           ListTile(
                             leading: Icon(Icons.accessibility),
                             title: const Text(
-                              'O que é Anda Recicla?',
+                              'O que é KidsApp?',
                               style: TextStyle(fontWeight: FontWeight.bold,fontSize: 24,color: Colors.white),
                             ),
-                            tileColor: Colors.indigo.shade300,
+                            tileColor: Color.fromARGB(255, 10, 37, 90),
                           ),
                           Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Image.asset('assets/images/lixeiras-coleta-seletiva.jpg')
+                              child: Image.asset('assets/images/o_que_e_kidsapp.png')
                           ),
                           ButtonBar(
                             alignment: MainAxisAlignment.start,
                             children: [
                               FlatButton(
                                 textColor: Colors.white,
+                                color: Color.fromARGB(255, 10, 37, 90),
                                 onPressed: () {
                                   Navigator.push(
                                     context,
