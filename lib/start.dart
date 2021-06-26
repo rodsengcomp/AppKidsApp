@@ -33,10 +33,10 @@ class _IntroScreenState extends State<IntroScreen> {
     "Atividades Educativas",
   ];
   final List<String> subtitles = [
-    "Vídeos com historinhas animadas que ajudam a lidar com as emoções dos pequenos.",
-    "Brincadeiras que você pode fazer em casa educando seu filho e se divertindo !!!",
-    "Histórias que trabalham as emoções dos pequenos, ainda confusas e dolorosas ",
-    "Estimulando a coordenação motora, percepção espacial e o raciocínio lógico"
+    "Vídeos com explicativos que te ajudam a lidar com o universo das crianças.",
+    "Vídeos com explicativos de brincadeiras que você pode fazer em casa educando seu filho e se divertindo !!!",
+    "Vídeos com explicativos de histórias que trabalham as emoções dos pequenos, ainda confusas e dolorosas ",
+    "Vídeos com explicativos que estimulando a coordenação motora, percepção espacial e o raciocínio lógico"
   ];
   final List<Color> colors = [
     Color.fromARGB(255, 17, 56, 224),

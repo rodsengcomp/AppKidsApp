@@ -1,4 +1,4 @@
-import 'package:appkidsapp/screens/linhaazul_screen.dart';
+import 'package:appkidsapp/screens/quemkidsapp_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'gametopchartstabs.dart';
@@ -109,7 +109,7 @@ class _GamesTopTabsState extends State<GamesTopTabs> with SingleTickerProviderSt
         body: TabBarView(
           controller: _tabController,
             children: <Widget>[
-              LinhaAzulScreen(),
+              QuemSomosApp(),
               GameTopChartsTabs(0xff3f51b5),
                Container(
               height: 200.0,

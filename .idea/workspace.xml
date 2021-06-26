@@ -23,10 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f97594-a2a1-47a4-988e-8c90dd0150a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/screens/quemkidsapp_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/intoscreen_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intoscreen_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/intoscreen_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intoscreen_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/intoscreen_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intoscreen_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/gamestoptabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gamestoptabs.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/homeforyoutabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/homeforyoutabs.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/hometoptabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hometoptabs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/linhaazul_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/linhabranca_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/linhaespecial_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/linhamarron_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/linhaverde_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/linhavermelha_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/lixoeletronico_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/quemsomos_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/quemsomos_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/start.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/start.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tabs/home_tab.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tabs/home_tab.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,18 +68,18 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib" />
-      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets\images" />
-      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets" />
-      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib\screens" />
-      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib\tabs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets\images" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib\screens" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\assets" />
+      <recent name="C:\Users\rodol\OneDrive\Documentos\GitHub\AppKidsApp\lib\tabs" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,34 +120,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624499282094" />
-    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624641806640">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624699847019">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624641806640" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624699847019" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624593069237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624593069237" />
-    <state width="1306" height="179" key="GridCell.Tab.0.bottom" timestamp="1624644543779">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1624711300057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624644543779" />
-    <state width="1306" height="179" key="GridCell.Tab.0.center" timestamp="1624644543778">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624711300057" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1624711300057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624644543778" />
-    <state width="1306" height="179" key="GridCell.Tab.0.left" timestamp="1624644543778">
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624711300057" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1624711300057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624644543778" />
-    <state width="1306" height="179" key="GridCell.Tab.0.right" timestamp="1624644543778">
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624711300057" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1624711300057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624644543778" />
-    <state x="779" y="120" width="587" height="596" key="find.popup" timestamp="1624642988488">
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624711300057" />
+    <state x="779" y="120" width="587" height="596" key="find.popup" timestamp="1624710769704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="779" y="120" width="587" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624642988488" />
+    <state x="779" y="120" width="587" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1624710769704" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1624506585986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
