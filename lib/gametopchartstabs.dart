@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class GameTopChartsTabs extends StatefulWidget {
   int colorVal;
@@ -83,8 +84,7 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
       child: ListView(
         scrollDirection: Axis.vertical,
         children: <Widget>[
-          SizedBox(height: 40.0),
-          ListTile(
+            ListTile(
             leading: Container(
               height: 100.0,
               width: 100.0,
@@ -98,9 +98,10 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
               ),
             ),
             title: Text(
-              'ABELHA ZANGADA',
+              'A ABELHINHA ZILU',
             ),
-            subtitle: Text('Bandai Namco'),
+            subtitle: Text('Valorizando emoções'),
+                onTap: () => launch('https://www.youtube.com/watch?v=XS9z9WkIox0')
           ),
           SizedBox(height: 40.0),
           ListTile(
@@ -110,16 +111,17 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
               decoration: new BoxDecoration(
                 image: DecorationImage(
                   image: new NetworkImage(
-                      'https://lh3.googleusercontent.com/IUmxAtr8x20F50Rg0qFLPvN1KfGzB57wpRPzzcbx1Cy0tAbyPxR2HZIx8z3_ywSwkYV0=s180-rw'),
+                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWw9aq1LGXROoKHAmzsf6afV9_ySWjZtD3ygmTI37rq6uiel-WyzlMu-kzIuML9KZFZCM&usqp=CAU'),
                   fit: BoxFit.fill,
                 ),
                 borderRadius: BorderRadius.circular(20.0),
               ),
             ),
             title: Text(
-              'Jewels Classic',
+              'A LAGARTA MEDROSA',
             ),
-            subtitle: Text('Jewel - Lazy Chick'),
+            subtitle: Text('Varal de Histórias'),
+              onTap: () => launch('https://www.youtube.com/watch?v=SZKyC8pT9sM')
           ),
           SizedBox(height: 40.0),
           ListTile(
@@ -129,16 +131,17 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
               decoration: new BoxDecoration(
                 image: DecorationImage(
                   image: new NetworkImage(
-                      'https://lh3.googleusercontent.com/RHEi0Ned02-oGl6BJdvHNFiJFSX9ZCD2aFW4By_vOflNo0ton3QgQ90fZTk2b7tal6cR=s180-rw'),
+                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3VEG3mf2ePY01MfEpoIZiTM2gdfwxTU72w&usqp=CAU'),
                   fit: BoxFit.fill,
                 ),
                 borderRadius: BorderRadius.circular(20.0),
               ),
             ),
             title: Text(
-              'Street Racing 3D',
+              'TUDO BEM SER DIFERENTE',
             ),
-            subtitle: Text('Ivy Racing'),
+            subtitle: Text('Varal de Histórias'),
+              onTap: () => launch('https://www.youtube.com/watch?v=-2_cQxGFYKE')
           ),
           SizedBox(height: 40.0),
           ListTile(
@@ -148,16 +151,17 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
               decoration: new BoxDecoration(
                 image: DecorationImage(
                   image: new NetworkImage(
-                      'https://lh3.googleusercontent.com/6pAKrBga5LKR2Gz0Ag_VOpB7n2GfHvpdWFgLAlYUbgGZzWZQijTI0PS2k9H4HW3DbQ=s180-rw'),
+                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7T2y6mpNFzw9cWc5S3vLycoXeRL9mGR2WfmPbV3otUlonfn6QNwRTExP2E9JW4cur9w&usqp=CAU'),
                   fit: BoxFit.fill,
                 ),
                 borderRadius: BorderRadius.circular(20.0),
               ),
             ),
             title: Text(
-              'Dream League Soccer 2019',
+              'CÉU DE PAPEL',
             ),
-            subtitle: Text('Sports'),
+            subtitle: Text('Fafá Conta'),
+              onTap: () => launch('https://www.youtube.com/watch?v=nvjqo605o_U')
           ),
         ],
       ),

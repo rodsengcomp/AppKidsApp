@@ -95,11 +95,7 @@ class QuemSomos extends StatelessWidget {
                   child: Text("Clique aqui para acessar o projeto no GITHUB",
                     style: TextStyle(color: Colors.blue,fontStyle: FontStyle.italic,decoration: TextDecoration.underline,fontWeight: FontWeight.bold,fontSize: 20),
                   ),
-                  onTap: () async {
-                    if (await canLaunch("https://github.com/rodsengcomp/Projeto-AndaRecicla-Univesp-PI-VI")) {
-                      await launch("https://github.com/rodsengcomp/Projeto-AndaRecicla-Univesp-PI-VI");
-                    }
-                  },
+                  onTap: () => launch('https://github.com/rodsengcomp/AppKidsApp')
                 ),
               ),
               Padding(
