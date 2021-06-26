@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'homeforyoutabs.dart';
-import 'package:appkidsapp/screens/linhaespecial_screen.dart';
 import 'hometopchartstabs.dart';
 
 class HomeTopTabs extends StatefulWidget {

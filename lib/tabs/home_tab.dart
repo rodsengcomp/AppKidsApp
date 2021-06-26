@@ -1,12 +1,7 @@
+import 'package:appkidsapp/screens/quemkidsapp_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:appkidsapp/screens/elixo_screen.dart';
-import 'package:appkidsapp/screens/linhaazul_screen.dart';
-import 'package:appkidsapp/screens/linhabranca_screen.dart';
-import 'package:appkidsapp/screens/linhamarron_screen.dart';
-import 'package:appkidsapp/screens/linhaverde_screen.dart';
-import 'package:appkidsapp/screens/linhaespecial_screen.dart';
-import 'package:appkidsapp/screens/lixoeletronico_screen.dart';
 import 'package:appkidsapp/screens/quemsomos_screen.dart';
 import 'package:transparent_image/transparent_image.dart';
 
@@ -99,7 +94,7 @@ class HomeTab extends StatelessWidget {
                           ),
                           Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Image.asset('assets/images/o_que_e_lixo_eletronico.jpg')
+                              child: Image.asset('assets/images/o_que_e_kidsapp.png')
                           ),
                           ButtonBar(
                             alignment: MainAxisAlignment.start,
@@ -109,7 +104,7 @@ class HomeTab extends StatelessWidget {
                                 onPressed: () {
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => LixoEletronico()),
+                                    MaterialPageRoute(builder: (context) => QuemSomosApp()),
                                   );
                                 },
                                 child: const Text('SAIBA MAIS'),
@@ -135,7 +130,7 @@ class HomeTab extends StatelessWidget {
                           ),
                           Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Image.asset('assets/images/linha_azuls.jpg')
+                              child: Image.asset('assets/images/o_que_e_kidsapp.png')
                           ),
                           ButtonBar(
                             alignment: MainAxisAlignment.start,
@@ -145,7 +140,7 @@ class HomeTab extends StatelessWidget {
                                 onPressed: () {
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => LinhaAzulScreen()),
+                                    MaterialPageRoute(builder: (context) => QuemSomosApp()),
                                   );
                                 },
                                 child: const Text('SAIBA MAIS'),
@@ -171,7 +166,7 @@ class HomeTab extends StatelessWidget {
                           ),
                           Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Image.asset('assets/images/linha_marrom.jpg')
+                              child: Image.asset('assets/images/o_que_e_kidsapp.png')
                           ),
                           ButtonBar(
                             alignment: MainAxisAlignment.start,
@@ -181,7 +176,7 @@ class HomeTab extends StatelessWidget {
                                 onPressed: () {
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => LinhaMarromScreen()),
+                                    MaterialPageRoute(builder: (context) => QuemSomosApp()),
                                   );
                                 },
                                 child: const Text('SAIBA MAIS'),
@@ -207,7 +202,7 @@ class HomeTab extends StatelessWidget {
                           ),
                           Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Image.asset('assets/images/linha_verde.jpg')
+                              child: Image.asset('assets/images/o_que_e_kidsapp.png')
                           ),
                           ButtonBar(
                             alignment: MainAxisAlignment.start,
@@ -217,7 +212,7 @@ class HomeTab extends StatelessWidget {
                                 onPressed: () {
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => LinhaVerdeScreen()),
+                                    MaterialPageRoute(builder: (context) => QuemSomosApp()),
                                   );
                                 },
                                 child: const Text('SAIBA MAIS'),
@@ -243,7 +238,7 @@ class HomeTab extends StatelessWidget {
                           ),
                           Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Image.asset('assets/images/linha_branca.png')
+                              child: Image.asset('assets/images/o_que_e_kidsapp.png')
                           ),
                           ButtonBar(
                             alignment: MainAxisAlignment.start,
@@ -253,7 +248,7 @@ class HomeTab extends StatelessWidget {
                                 onPressed: () {
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => LinhaBrancaScreen()),
+                                    MaterialPageRoute(builder: (context) => QuemSomosApp()),
                                   );
                                 },
                                 child: const Text('SAIBA MAIS'),
@@ -279,7 +274,7 @@ class HomeTab extends StatelessWidget {
                           ),
                           Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Image.asset('assets/images/linha_spacial.jpg')
+                              child: Image.asset('assets/images/o_que_e_kidsapp.png')
                           ),
                           ButtonBar(
                             alignment: MainAxisAlignment.start,
@@ -289,7 +284,7 @@ class HomeTab extends StatelessWidget {
                                 onPressed: () {
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => LinhaEspecialScreen()),
+                                    MaterialPageRoute(builder: (context) => QuemSomosApp()),
                                   );
                                 },
                                 child: const Text('SAIBA MAIS'),

@@ -1,4 +1,4 @@
-import 'package:appkidsapp/screens/linhaazul_screen.dart';
+import 'package:appkidsapp/screens/history_one_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'gametopchartstabs.dart';
@@ -42,7 +42,7 @@ class _GamesTopTabsState extends State<GamesTopTabs> with SingleTickerProviderSt
                 icon:Icon(FontAwesomeIcons.compass, color: _tabController.index == 0
                           ? Color( widget.colorVal)
                           : Colors.grey),
-                child:Text('Recomendados',style: TextStyle( color: _tabController.index == 0
+                child:Text('Sobre',style: TextStyle( color: _tabController.index == 0
                           ?  Color( widget.colorVal)
                           : Colors.grey)),
               ),
@@ -50,7 +50,7 @@ class _GamesTopTabsState extends State<GamesTopTabs> with SingleTickerProviderSt
                 icon: Icon(FontAwesomeIcons.chartBar, color: _tabController.index == 1
                           ? Color( widget.colorVal)
                           : Colors.grey),
-                child: Text('Mais acessados',style: TextStyle( color: _tabController.index == 1
+                child: Text('Histórias',style: TextStyle( color: _tabController.index == 1
                           ?  Color( widget.colorVal)
                           : Colors.grey)),
               ),
@@ -109,7 +109,7 @@ class _GamesTopTabsState extends State<GamesTopTabs> with SingleTickerProviderSt
         body: TabBarView(
           controller: _tabController,
             children: <Widget>[
-              LinhaAzulScreen(),
+              HistoryOne(),
               GameTopChartsTabs(0xff3f51b5),
                Container(
               height: 200.0,

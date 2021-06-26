@@ -10,8 +10,8 @@ class QuemSomos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigo,
-        title: Text("Desenvolvedores - Anda Recicla",
+        backgroundColor: Color(0xff30ba18),
+        title: Text("Desenvolvedores - KidsApp",
         ),
         centerTitle: true,
         actions: <Widget>[
