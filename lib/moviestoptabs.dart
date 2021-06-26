@@ -1,6 +1,8 @@
+import 'package:appkidsapp/screens/movies_one_screen.dart';
+import 'package:appkidsapp/screens/quemkidsapp_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'moviereleasetabs.dart';
+import 'package:appkidsapp/moviereleasetabs.dart';
 
 class MoviesTopTabs extends StatefulWidget {
   int colorVal;
@@ -43,7 +45,7 @@ class _MoviesTopTabsState extends State<MoviesTopTabs>
                     color: _tabController.index == 0
                         ? Color(widget.colorVal)
                         : Colors.grey),
-                child: Text('For You',
+                child: Text('SOBRE',
                     style: TextStyle(
                         color: _tabController.index == 0
                             ? Color(widget.colorVal)
@@ -54,7 +56,7 @@ class _MoviesTopTabsState extends State<MoviesTopTabs>
                     color: _tabController.index == 1
                         ? Color(widget.colorVal)
                         : Colors.grey),
-                child: Text('TV',
+                child: Text('FILMES',
                     style: TextStyle(
                         color: _tabController.index == 1
                             ? Color(widget.colorVal)
@@ -123,7 +125,7 @@ class _MoviesTopTabsState extends State<MoviesTopTabs>
           children: <Widget>[
             Container(
               height: 200.0,
-              child: Center(child: Text('For you')),
+              child: MoviesOne(),
             ),
             Container(
               height: 200.0,
