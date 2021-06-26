@@ -15,7 +15,7 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
   @override
   void initState() {
     super.initState();
-    _tabController = new TabController(vsync: this, length: 5);
+    _tabController = new TabController(vsync: this, length: 1);
     _tabController.addListener(_handleTabSelection);
   }
 
@@ -56,29 +56,9 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
                     indicatorColor: Color(widget.colorVal),
                     indicatorWeight: 5.0,
                     tabs: [
-                      Text("TOP FREE",
+                      Text("Nossas Histórias",
                           style: TextStyle(
                               color: _tabController.index == 0
-                                  ? Color(widget.colorVal)
-                                  : Colors.black)),
-                      Text("TOP GROSSING",
-                          style: TextStyle(
-                              color: _tabController.index == 1
-                                  ? Color(widget.colorVal)
-                                  : Colors.black)),
-                      Text("TRENDING",
-                          style: TextStyle(
-                              color: _tabController.index == 2
-                                  ? Color(widget.colorVal)
-                                  : Colors.black)),
-                      Text("TOP PAID",
-                          style: TextStyle(
-                              color: _tabController.index == 3
-                                  ? Color(widget.colorVal)
-                                  : Colors.black)),
-                      Text("TOP RATED",
-                          style: TextStyle(
-                              color: _tabController.index == 4
                                   ? Color(widget.colorVal)
                                   : Colors.black)),
                     ],
@@ -92,22 +72,6 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
           controller: _tabController,
           children: <Widget>[
             TopFreeApps(),
-            Container(
-              height: 200.0,
-              child: Center(child: Text('TOP GROSSING')),
-            ),
-            Container(
-              height: 200.0,
-              child: Center(child: Text('TRENDING')),
-            ),
-            Container(
-              height: 200.0,
-              child: Center(child: Text('TOP PAID')),
-            ),
-            Container(
-              height: 200.0,
-              child: Center(child: Text('TOP RATED')),
-            ),
           ],
         ),
       ),
@@ -127,14 +91,14 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
               decoration: new BoxDecoration(
                 image: DecorationImage(
                   image: new NetworkImage(
-                      'https://lh3.googleusercontent.com/sjyLUoLz9dM6nQgn3XiyzUrMBC_oAD_MxHtMGrLha0UXDqFpwAOUaWjqgd0WIPQUKg=s180-rw'),
+                      'https://st2.depositphotos.com/1007168/6108/v/600/depositphotos_61083103-stock-illustration-angry-bee-character.jpg'),
                   fit: BoxFit.fill,
                 ),
                 borderRadius: BorderRadius.circular(20.0),
               ),
             ),
             title: Text(
-              'DRAGON BALL',
+              'ABELHA ZANGADA',
             ),
             subtitle: Text('Bandai Namco'),
           ),

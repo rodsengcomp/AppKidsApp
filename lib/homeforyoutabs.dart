@@ -13,6 +13,15 @@ class HomeForYouTabs extends StatefulWidget {
   _HomeForYouTabsState createState() => _HomeForYouTabsState();
 }
 
+final ButtonStyle flatButtonStyle = TextButton.styleFrom(
+  primary: Colors.black87,
+  minimumSize: Size(88, 36),
+  padding: EdgeInsets.symmetric(horizontal: 16.0),
+  shape: const RoundedRectangleBorder(
+    borderRadius: BorderRadius.all(Radius.circular(2.0)),
+  ),
+);
+
 class _HomeForYouTabsState extends State<HomeForYouTabs> {
   @override
   Widget build(BuildContext context) {
@@ -112,9 +121,10 @@ class _HomeForYouTabsState extends State<HomeForYouTabs> {
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
                   children: [
-                    FlatButton(
-                      textColor: Colors.white,
-                      color: Color.fromARGB(255, 19, 106, 15),
+                    TextButton(
+                      style: TextButton.styleFrom(
+                          primary: Colors.white,
+                          backgroundColor: Color.fromARGB(255, 19, 106, 15)),
                       onPressed: () {
                         Navigator.push(
                           context,
@@ -190,9 +200,10 @@ class _HomeForYouTabsState extends State<HomeForYouTabs> {
         child: ListView(
           scrollDirection: Axis.horizontal,
           children: <Widget>[
-            FlatButton(
+            TextButton(
+              style: flatButtonStyle,
               onPressed: () {
-                LaunchReview.launch(androidAppId: "appkidsapp.u000webhostapp.appkidsapp");
+                LaunchReview.launch(androidAppId: "com.google.android.apps.youtube.kids");
              },
             child: imageSection(
                 'https://play-lh.googleusercontent.com/S4wylkvt2jz16hnG9IG0pAZosbB82nWWy8P-rQkb54uH-SCVd5L2j7z7x1Vz5pZvIRc=s180-rw',
@@ -201,33 +212,63 @@ class _HomeForYouTabsState extends State<HomeForYouTabs> {
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "com.JindoBlu.Antistress");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/On66qaaD615kZeIb37D1XAVzeAdr68mjYxNnkfM0sszdY-zHTN0yjmQZZzKUCujAJQ=s180-rw',
                 'Antiestresse','4.4'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "com.binibambini.acad.drawing");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/5yp98wUJV10rWUdzBnUHC9XK4fF1N2WJqEdfjzVGIzMnvtF26w39qGaZYXVwSrtvLQ=s180-rw',
                 'Bini - Jogo de Desenhar','4.4'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "com.pescapps.gamekids5");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/IAtYbr9EN4WAN2PAftzQxcGsadl-t57JvEGdzCVHACxbC2gszStCcdep2SzxUR8P2Q=s180-rw',
                 'Kids','4.2'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "com.princess.coloring");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/d8r0nDo1lXUgoSVa3VZ0llKmGo7uAgdMqVbrgQsTn-yScSjNZcdxLkMmvQmUQzTnaXs=s180-rw',
                 'Colorir Princesa','4.1'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "com.orange.kidspiano.music.songs");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/FafD4vlzxogAHYu3KaNuQ0mlKY0FIm11SqAXrqOIPPWsPMhTZUJ6LwuBJktMU_JT0_w=s180-rw',
                 'Piano Músicas','4.4'),
+            ),
           ],
         ));
   }
@@ -238,39 +279,75 @@ class _HomeForYouTabsState extends State<HomeForYouTabs> {
         child: ListView(
           scrollDirection: Axis.horizontal,
           children: <Widget>[
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+              onPressed: () {
+                LaunchReview.launch(androidAppId: "com.sound.kids.game");
+              },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/N-OBq8i4wYrR7-pLeSrsSB6yxHpD7Jx1mqk0HkO6YWIsqhIjisr9ofO6Zu98PPNd8k8=s180-rw',
                 'Ler e Escrever', '5.0'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "air.cz.cfc.free.androidgp.MusicalPuzzleLite");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/RQB9fW6agU60f8_yOresWARYawyFH5eRMf8QqAiefICdoLdejV28f5ATlIK1ecRUrw=s180-rw',
                 'Baby Piano','4.1'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+              onPressed: () {
+              LaunchReview.launch(androidAppId: "air.elbuhoboo.premium");
+              },
+              child: imageSection(
                 'https://play-lh.googleusercontent.com/1wXrZsWz6Z6S8hfCRkkKFjeViQxfNMkdCqPI8mr2kzj5-YXsUPO7Og-fDGrAy3xRqQ=s180-rw',
                 'A CORUJA BOO - Jogos','4.6'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "air.elbuhoboo.premium");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/r2sld4Qa9wdWKbI20NjN3wXZyeMIpIEYiSm6r1JpHo2Mxf1uvuunsX6D4uvM_IAU5A=s180-rw',
                 'Livro de colorir','4.0'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "com.firststep");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/2Q0qWZFJZR2-ym6mur_uDrH_nbQ8Ju0GtnZzbGwCIBeYX_z2NoKK0ob9-onu0nobnQ=s180-rw',
                 'Aprender Jogo','4.0'),
+            ),
             SizedBox(
               width: 20.0,
             ),
-            imageSection(
+            TextButton(
+              style: flatButtonStyle,
+            onPressed: () {
+            LaunchReview.launch(androidAppId: "com.ikcplay.shadowletters");
+            },
+            child: imageSection(
                 'https://play-lh.googleusercontent.com/02wVy8uW-6Y2yLY7y3FhV8BZRaf_F5GFoEIyegSvY2Vl3znOxfi9RsbKmfm2HPgfRUg=s180-rw',
                 'Alfabeto números','4.8'),
+            ),
           ],
         ));
   }
