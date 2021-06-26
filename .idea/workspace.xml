@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f97594-a2a1-47a4-988e-8c90dd0150a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/screens/movies_one_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/moviestoptabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/moviestoptabs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +130,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624738034321" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624741615461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624741615461" />
     <state x="779" y="120" width="587" height="596" key="find.popup" timestamp="1624738579709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
