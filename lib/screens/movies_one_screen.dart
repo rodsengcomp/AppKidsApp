@@ -16,10 +16,10 @@ class MoviesOne extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(14.0),
                 child: const Image(
-                  image: NetworkImage('https://barcelonasuperficies.com.br/wp-content/uploads/2018/02/contacao-de-historias-uma-poderosa-ferramenta-para-a-formacao-infantil.jpg'),
+                  image: NetworkImage('https://staticr1.blastingcdn.com/media/photogallery/2020/8/26/660x290/b_502x220/filmes-de-animacao-para-assistir-com-as-criancas-arquivo-blasting-news_2507754.jpg'),
                 ),
               ),
-              Text('fonte: https://barcelonasuperficies.com.br/',
+              Text('fonte: https://br.blastingnews.com/',
                 textAlign: TextAlign.left,
                 style: TextStyle(fontSize: 14,fontStyle: FontStyle.italic),
               ),
@@ -27,7 +27,7 @@ class MoviesOne extends StatelessWidget {
                 padding: const EdgeInsets.all(4.0),
                 child: ListTile(
                   title: const Text(
-                    'A importância de contar histórias a crianças',
+                    'A importância dos filmes infantis as crianças',
                     textAlign: TextAlign.justify,
                     style: TextStyle(fontWeight: FontWeight.bold,fontSize: 26,color: Colors.black),
                   ),
@@ -37,8 +37,8 @@ class MoviesOne extends StatelessWidget {
                 padding: const EdgeInsets.all(2.0),
                 child: ListTile(
                   subtitle: Text(
-                    'É importante para o bebê ouvir a voz amada e para a criança pequenina escutar uma narrativa curta, '
-                        'simples, repetitiva, cheia de humor e de calidez (numa relação a dois),com crianças de 0 a 5 anos.',
+                    'Percebe-se que a criança está tendo cada vez mais autonomia para assistir a filmes infantis em casa, no celular ou computador, sem a presença de um adulto. '
+                        'É interessante que esse momento de descontração também possa lhe promover além do prazer e do conhecimento.',
                     textAlign: TextAlign.justify,
                     style: TextStyle(color: Colors.black.withOpacity(0.6),fontWeight: FontWeight.bold,fontSize: 24),
                   ),
@@ -48,9 +48,9 @@ class MoviesOne extends StatelessWidget {
                 padding: const EdgeInsets.all(4.0),
                 child: ListTile(
                   title: const Text(
-                    'A contação de histórias na educação infantil desperta a curiosidade, estimula a imaginação, desenvolve a'
-                        ' autonomia e o pensamento, proporciona vivenciar diversas emoções como medo e angústias, ajudando a '
-                        'criança a resolver seus conflitos emocionais próprios, aliviando sobrecargas emocionais.',
+                    'Entendemos a presença dos filmes como forma de estimular, nas crianças, a observação, a capacidade de julgamento, '
+                        ' sensibilidade, experiência estética, bem como articular espaços de '
+                        'discussão e interpretação entre outras crianças na escola e em casa.',
                     textAlign: TextAlign.justify,
                     style: TextStyle(color: Colors.black,fontWeight: FontWeight.normal,fontSize: 22),
                   ),
@@ -59,7 +59,7 @@ class MoviesOne extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(4.0),
                 child: ListTile(
-                  title: const Text('fonte: http://docs.uninove.br/arte/fac/publicacoes/pdf/v6-2016/ARTIGO-ANA-LUCIA-SANCHES.pdf/',
+                  title: const Text('fonte: https://sites.google.com/site/bemvindoaomundoanimado/a-importancia-dos-filmes-infantis-para-as-criancas',
                     textAlign: TextAlign.left,
                     style: TextStyle(fontSize: 14,fontStyle: FontStyle.italic),
                   ),
