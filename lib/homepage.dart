@@ -136,7 +136,7 @@ Widget _GooglePlayAppBar() {
         ),
         Container(
           child: Text(
-            'KidsApp',
+            'Pesquisar',
             style: TextStyle(color: Colors.grey),
           ),
         ),
