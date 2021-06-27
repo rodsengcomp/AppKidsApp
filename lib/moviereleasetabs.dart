@@ -13,8 +13,8 @@ class MovieReleaseTabs extends StatefulWidget {
 class _MovieReleaseTabsState extends State<MovieReleaseTabs> {
 
   final List<String> imgList = [
-  'https://lh3.googleusercontent.com/GJAnttuWVk8IcpLlkMVMjyPWkgGc1-8_kFGoKa5GDP21rMKZt4AztM-hn5Q6WQdKFEg=w200-h300-rw',
-  'https://lh3.googleusercontent.com/gNBb6s2J9aRrQE8wk6mppKbb46uYcW1p5EuzknTZF3Ds6hYM9QrWgO8rdlQDyY2A7Vmi=w200-h300-rw',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qzuR3BJNZNH7-V57aBEWKxrWXZCg0JntmQ&usqp=CAU',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIZEHxfcops1EfX88tYJ4DikOd4DL1c_gTJg&usqp=CAU',
   'https://lh3.googleusercontent.com/IGPFCdnnT8Sp1kI___pIWlWFRlLaKgAzu7eP_QXw0FbZQ_gg3WvXqbhbiWaE9_hVEGd4Bw=w200-h300-rw',
   'https://lh3.googleusercontent.com/GVpOcjU50jtPmlNbB331263RgHv_NEqE-FnweqvUWleO94Ckvrznw05kwUGk1oKp5GA=w200-h300-rw',
   'https://lh3.googleusercontent.com/t58TiR9gox0kZ9o1GBY5qN6Ywg2HjaQ6n2cUPc_KYJntdcsVl5CGKOPjLwMcapUhD2fr-w=w200-h300-rw',
@@ -46,7 +46,7 @@ class _MovieReleaseTabsState extends State<MovieReleaseTabs> {
 
  Widget CarouselContainer(){
     return  CarouselSlider(
-      viewportFraction: 0.9,
+      viewportFraction: 1.0,
       aspectRatio: 2.0,
       autoPlay: true,
       enlargeCenterPage: true,

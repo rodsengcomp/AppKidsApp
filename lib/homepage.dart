@@ -5,6 +5,7 @@ import 'gamestoptabs.dart';
 import 'moviestoptabs.dart';
 import 'bookstoptabs.dart';
 import 'musictoptabs.dart';
+import 'dicastoptabs.dart';
 
 class HomePage extends StatefulWidget {
   final Widget child;
@@ -18,7 +19,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 5,
+      length: 6,
       child: Scaffold(
           appBar: AppBar(
            // backgroundColor: Color(0xff109618),
@@ -48,6 +49,9 @@ class _HomePageState extends State<HomePage> {
                       break;
                       case 4:
                       PrimaryColor= Color(0xff2196f3);
+                      break;
+                    case 5:
+                      PrimaryColor= Color(0xfff6980a);
                       break;
                     default:
                   }
@@ -94,6 +98,14 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+                Tab(
+                  child: Container(
+                    child: Text(
+                      'DICAS',
+                      style: TextStyle(color: Colors.white, fontSize: 18.0),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
@@ -104,6 +116,7 @@ class _HomePageState extends State<HomePage> {
               MoviesTopTabs(0xffe91e63),//e91e63
               BooksTopTabs(0xff9c27b0), //9c27b0
               MusicTopTabs(0xff2196f3), //2196f3 //4CAF50
+              DicasTopTabs(0xfff6980a), //2196f3 //4CAF50
             ],
           )),
     );
