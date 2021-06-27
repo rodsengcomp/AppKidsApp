@@ -85,7 +85,7 @@ class _MusicForYouTabsState extends State<MusicForYouTabs> {
                 decoration: new BoxDecoration(
                   image: DecorationImage(
                     image: new NetworkImage(
-                        'https://i.ytimg.com/an_webp/UBDZyAuFjDY/mqdefault_6s.webp?du=3000&sqp=CJ7u34YG&rs=AOn4CLBj0wT-H8I7_pyLZjFfWMJvbkh4Tg'),
+                        'https://lh3.googleusercontent.com/qLdKLEfo46rQy1BOz9Dv-LU8sCbV33tSkUisAE4LOYIFO3noLGk3s1b_1qv5D1SRM9tA=s151'),
                     fit: BoxFit.fill,
                   ),
                   borderRadius: BorderRadius.circular(20.0),
@@ -105,7 +105,7 @@ class _MusicForYouTabsState extends State<MusicForYouTabs> {
                 decoration: new BoxDecoration(
                   image: DecorationImage(
                     image: new NetworkImage(
-                        'https://i.ytimg.com/an_webp/kg48ZetqxdI/mqdefault_6s.webp?du=3000&sqp=CJLr34YG&rs=AOn4CLAdejyBTsjwLaVtnjrJG4Nh0DNXgw'),
+                        'https://lh3.googleusercontent.com/9hBsWEMxhxbQX-1AkLtwNmLBzQuogrDWN01PvUFufaPO82BclSPavz48op1tn2EL5gDBd1E=s151'),
                     fit: BoxFit.fill,
                   ),
                   borderRadius: BorderRadius.circular(20.0),
@@ -125,7 +125,7 @@ class _MusicForYouTabsState extends State<MusicForYouTabs> {
                 decoration: new BoxDecoration(
                   image: DecorationImage(
                     image: new NetworkImage(
-                        'https://i.ytimg.com/an_webp/kg48ZetqxdI/mqdefault_6s.webp?du=3000&sqp=CJLr34YG&rs=AOn4CLAdejyBTsjwLaVtnjrJG4Nh0DNXgw'),
+                        'https://lh3.googleusercontent.com/evZJEQkAIBx9zKdOGvv49Jvgfk42gU0yJpAACOYLsaNp6WvFD_fyDXS4DdqAlhCw_l7i=s151'),
                     fit: BoxFit.fill,
                   ),
                   borderRadius: BorderRadius.circular(20.0),
