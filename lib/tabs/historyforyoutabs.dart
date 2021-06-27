@@ -2,30 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class GameTopChartsTabs extends StatefulWidget {
-  int colorVal;
-  GameTopChartsTabs(this.colorVal);
+class HistoryForYouTabs extends StatefulWidget {
+  final Widget child;
 
-  _GameTopChartsTabsState createState() => _GameTopChartsTabsState();
+  HistoryForYouTabs({Key key, this.child}) : super(key: key);
+
+  _HistoryForYouTabsState createState() => _HistoryForYouTabsState();
 }
 
-class _GameTopChartsTabsState extends State<GameTopChartsTabs>
-    with SingleTickerProviderStateMixin {
-  TabController _tabController;
+final ButtonStyle flatButtonStyle = TextButton.styleFrom(
+  primary: Colors.black87,
+  minimumSize: Size(88, 36),
+  padding: EdgeInsets.symmetric(horizontal: 16.0),
+  shape: const RoundedRectangleBorder(
+    borderRadius: BorderRadius.all(Radius.circular(2.0)),
+  ),
+);
 
-  @override
-  void initState() {
-    super.initState();
-    _tabController = new TabController(vsync: this, length: 1);
-    _tabController.addListener(_handleTabSelection);
-  }
-
-  void _handleTabSelection() {
-    setState(() {
-      widget.colorVal = 0xff3f51b5;
-    });
-  }
-
+class _HistoryForYouTabsState extends State<HistoryForYouTabs> {
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -34,52 +28,12 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
       shadowColor: Color(0x802196F3),
       child: Padding(
         padding: EdgeInsets.only(top: 32.0, left: 8.0, right: 8.0),
-        child: innerNestedTabs(),
+        child: ListVideos(),
       ),
     );
   }
 
-  Widget innerNestedTabs() {
-    return DefaultTabController(
-      length: 5,
-      child: new Scaffold(
-        appBar: new PreferredSize(
-          preferredSize: Size.fromHeight(kToolbarHeight),
-          child: new Container(
-            child: new SafeArea(
-              child: Column(
-                children: <Widget>[
-                  new Expanded(child: new Container()),
-                  new TabBar(
-                    isScrollable: true,
-                    controller: _tabController,
-                    labelPadding: EdgeInsets.all(10.0),
-                    indicatorColor: Color(widget.colorVal),
-                    indicatorWeight: 5.0,
-                    tabs: [
-                      Text("Nossas Histórias",
-                          style: TextStyle(
-                              color: _tabController.index == 0
-                                  ? Color(widget.colorVal)
-                                  : Colors.black)),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-          ),
-        ),
-        body: new TabBarView(
-          controller: _tabController,
-          children: <Widget>[
-            TopFreeApps(),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget TopFreeApps() {
+  Widget ListVideos() {
     return Container(
       child: ListView(
         scrollDirection: Axis.vertical,
@@ -163,6 +117,27 @@ class _GameTopChartsTabsState extends State<GameTopChartsTabs>
             subtitle: Text('Fafá Conta'),
               onTap: () => launch('https://www.youtube.com/watch?v=nvjqo605o_U')
           ),
+          SizedBox(height: 40.0),
+          ListTile(
+              leading: Container(
+                height: 100.0,
+                width: 100.0,
+                decoration: new BoxDecoration(
+                  image: DecorationImage(
+                    image: new NetworkImage(
+                        'https://i.ytimg.com/an_webp/sxAvOa-nfFo/mqdefault_6s.webp?du=3000&sqp=CJCb34YG&rs=AOn4CLAFM3rTOU4bsK7GvEeZyzod7IPdmw'),
+                    fit: BoxFit.fill,
+                  ),
+                  borderRadius: BorderRadius.circular(20.0),
+                ),
+              ),
+              title: Text(
+                'A MINHOCA E O LEÃO',
+              ),
+              subtitle: Text('Varal de Histórias'),
+              onTap: () => launch('https://www.youtube.com/watch?v=sxAvOa-nfFo')
+          ),
+          SizedBox(height: 40.0),
         ],
       ),
     );

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'hometoptabs.dart';
-import 'gamestoptabs.dart';
-import 'moviestoptabs.dart';
-import 'bookstoptabs.dart';
-import 'musictoptabs.dart';
-import 'dicastoptabs.dart';
+import 'tabs/hometoptabs.dart';
+import 'tabs/historytoptabs.dart';
+import 'tabs/moviestoptabs.dart';
+import 'tabs/bookstoptabs.dart';
+import 'tabs/musictoptabs.dart';
+import 'tabs/dicastoptabs.dart';
 
 class HomePage extends StatefulWidget {
   final Widget child;
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
           body: TabBarView(
             children: <Widget>[
               HomeTopTabs(0xff109618),//ff5722
-              GamesTopTabs(0xff3f51b5),//3f51b5
+              HistoryTopTabs(0xff3f51b5),//3f51b5
               MoviesTopTabs(0xffe91e63),//e91e63
               BooksTopTabs(0xff9c27b0), //9c27b0
               MusicTopTabs(0xff2196f3), //2196f3 //4CAF50

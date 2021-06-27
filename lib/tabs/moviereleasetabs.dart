@@ -15,10 +15,10 @@ class _MovieReleaseTabsState extends State<MovieReleaseTabs> {
   final List<String> imgList = [
   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qzuR3BJNZNH7-V57aBEWKxrWXZCg0JntmQ&usqp=CAU',
   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIZEHxfcops1EfX88tYJ4DikOd4DL1c_gTJg&usqp=CAU',
-  'https://lh3.googleusercontent.com/IGPFCdnnT8Sp1kI___pIWlWFRlLaKgAzu7eP_QXw0FbZQ_gg3WvXqbhbiWaE9_hVEGd4Bw=w200-h300-rw',
-  'https://lh3.googleusercontent.com/GVpOcjU50jtPmlNbB331263RgHv_NEqE-FnweqvUWleO94Ckvrznw05kwUGk1oKp5GA=w200-h300-rw',
-  'https://lh3.googleusercontent.com/t58TiR9gox0kZ9o1GBY5qN6Ywg2HjaQ6n2cUPc_KYJntdcsVl5CGKOPjLwMcapUhD2fr-w=w200-h300-rw',
-  'https://lh3.googleusercontent.com/zZ1ZSFCBB4iiA6MEOaZxHJX214soedvkqwRHGB58gnODQeVQUI1ID3wpEje-SOWFOavQNA=w200-h300-rw'
+  'https://2.bp.blogspot.com/-Erud_82AakI/VnyP6OocvbI/AAAAAAAAPiU/qQJN7zU-0bs/s1600/dm.png',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1mpz3t-jc2poqIyIe-pI0Mxs4I7M-PMDjVw&usqp=CAU',
+  'https://lh3.googleusercontent.com/6-sLKx-Er_7Ys55FeVh2UgfWz3xYYjQRgdqBr3MGIc4XoKAi1QidOJvYGmt7Dk9rPnyaNSM=s150',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPQVbvogo4PGzY6jCYVrtce_mB7ElGYcw6A&usqp=CAU'
 ];
 
   @override
@@ -45,7 +45,7 @@ class _MovieReleaseTabsState extends State<MovieReleaseTabs> {
   }
 
  Widget CarouselContainer(){
-    return  CarouselSlider(
+    return CarouselSlider(
       viewportFraction: 1.0,
       aspectRatio: 2.0,
       autoPlay: true,
@@ -78,7 +78,7 @@ Widget RecommendedApps() {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: labelContainer('Recommended for you'),
+            child: labelContainer('Filmes Recomendados'),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -98,7 +98,7 @@ Widget RecommendedApps() {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: labelContainer('Most Popular Movies'),
+            child: labelContainer('Filmes Populares'),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -118,10 +118,6 @@ Widget RecommendedApps() {
           Text(
             labelVal,
             style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.0),
-          ),
-          Text(
-            'MORE',
-            style: TextStyle(color: Colors.green,fontWeight: FontWeight.bold,fontSize: 18.0),
           ),
         ],
       ),
@@ -171,20 +167,20 @@ Widget RecommendedApps() {
           scrollDirection: Axis.horizontal,
           children: <Widget>[
             imageSection(
-                'https://lh3.googleusercontent.com/IGPFCdnnT8Sp1kI___pIWlWFRlLaKgAzu7eP_QXw0FbZQ_gg3WvXqbhbiWaE9_hVEGd4Bw=w200-h300-rw',
-                'Aquaman','\u0024 19.99'),
+                'https://blogdorogerinho.files.wordpress.com/2015/06/divertida-mente-poster-personagens-camundongo.jpg',
+                'Divertidamente','\u0024 19.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/GVpOcjU50jtPmlNbB331263RgHv_NEqE-FnweqvUWleO94Ckvrznw05kwUGk1oKp5GA=w200-h300-rw',
-                'A Star Is Born','\u0024 19.99'),
+                'https://lh3.googleusercontent.com/7CctkOjLePIE9RtXZWnOVPzkTod-ZsxcMm07yANXRSlY3K9jSOS_z5_M0xktgYsRd5zMqQ=s85',
+                'Lilo Stitch','\u0024 19.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/ABFXY-iPTOBCBaa0xEjE0WdzkOBupXUfVk2Ezw-S0o69pA3wHPW6Q-PdWoNN1BHToY-lOw=w200-h300-rw',
-                'Instant Family','\u0024 12.99'),
+                'https://lh3.googleusercontent.com/6-sLKx-Er_7Ys55FeVh2UgfWz3xYYjQRgdqBr3MGIc4XoKAi1QidOJvYGmt7Dk9rPnyaNSM=s150',
+                'Moana','\u0024 12.99'),
             SizedBox(
               width: 20.0,
             ),
@@ -195,14 +191,14 @@ Widget RecommendedApps() {
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/8BFdtKYxUBfPuYucIZp8kdmpZpKmqQ3sd-nhqNfYfmMoDdTzxJMk6ibSSKL0DHX3Ak9eMQ=w200-h300-rw',
-                'Bohemian','\u0024 19.99'),
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPQVbvogo4PGzY6jCYVrtce_mB7ElGYcw6A&usqp=CAU',
+                'Monstros S.A','\u0024 19.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/Xwp2AkFm-89fUbTsrhTXkUdjRuKbbpgWL8iLoeicfV-mkXbpq5BpiJU9-V5j4vU_36F7=w200-h300-rw',
-                'Iron Man','\u0024 14.99'),
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoW5pIEK8rUZ59dJ5-SXHx9nw4QlurV0LUMg&usqp=CAU',
+                'Meu Malvado Favorito','\u0024 14.99'),
           ],
         ));
   }
@@ -214,38 +210,38 @@ Widget RecommendedApps() {
           scrollDirection: Axis.horizontal,
           children: <Widget>[
             imageSection(
-                'https://lh3.googleusercontent.com/oE89fThv4Jz8oquzHO_pkn2PwES88YM4FJtjBLsZv0ZMpS12ViAryUN0V7kTbtuzJ9l1=w200-h300-rw',
-                'Avengers: Infinity War','\u0024 13.99'),
+                'https://lh3.googleusercontent.com/wW0oR0vmZ8wL_KiCp6pVyVQljNQ2FbY3m5Ggd_mgq2q12xbEx6az8BguR_fufdHlPHUxlg=s102',
+                'Dora Aventureira','\u0024 13.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/N2smvNyfhOUUdYFt8UDtenVY1A3A62reVWacPTRERjDYRex4dkVfrxrQJ1BMPQ1KSxXKvw=w200-h300-rw',
-                'Rampage','\u0024 9.99'),
+                'https://lh3.googleusercontent.com/W-yM92oa9Qrhh57unazpHdSXeg8tzr1LliBGun4qva9bLcR50ZG4cUx0ycoOGAA4eh5mfQ=s152',
+                'Galinha Pintadinha','\u0024 9.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/2L4KUuN8fXnkwh2S-C3exr2b-oTe3mIaspcB4RO6XG026yLYFmEMinLZCDOBxftDiZU=w200-h300-rw',
-                'Fantastic Beasts','\u0024 9.99'),
+                'https://lh3.googleusercontent.com/3zNmdqCyzRB-9SCtXA7-few8CnZDoIAEfcwC1ZnKzUAvTWy5V1c0vS4NeyBKgNI3WtC1=s128',
+                'Vida de Inseto','\u0024 9.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/Fh9Pvucut6_q7K1pNZXUlS94qG5R1hdCIYhbRrOn5yy8RJ-Bv-gWcXHT3cSEbc4RchxR=w200-h300-rw',
-                'Ready Player One','\u0024 13.99'),
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkHjeP4sx7U2kV4UrTUK2v-TQ0jKlcEUkNg&usqp=CAU',
+                'Procurando o Nemo','\u0024 13.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/Ef2oPADcTmD3p_jRHiGf6pJuxdvalfj-NSAReeayRFaX3Ic2YM5Dh0r19erhmwWB-GS7=w200-h300-rw',
-                'Despicable Me 3','\u0024 14.99'),
+                'https://lh3.googleusercontent.com/uvZS-uQjlqen4SOVcGLucNicfM2rR7qQcx4XQTAZLS3psdfQlwK-LmruMG9xLHb2pyTu=s85',
+                'Pequena Sereia','\u0024 14.99'),
             SizedBox(
               width: 20.0,
             ),
             imageSection(
-                'https://lh3.googleusercontent.com/oDQDmSUZQbuOwzMDqWl_nAqG6UyqIPiQIlm59JTtDSOacBpha8i99yjzbsW_36eGKfQ=w200-h300-rw',
-                'Captain Marvel','\u0024 14.99'),
+                'https://lh3.googleusercontent.com/BQuUwbucEFk9WSQwtVJ71Y9HuqPkluP455VEFOfA8cT8bFnISyYlVD3kh1FY9xBgoMKg14Y=s85',
+                'Moisés','\u0024 14.99'),
           ],
         ));
   }
